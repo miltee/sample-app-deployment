@@ -3,9 +3,6 @@ kind: Deployment
 metadata:
   name: sample-app
 spec:
-  syncPolicy:
-    syncOptions:
-      - ApplyOutOfSyncOnly=true
   replicas: 1
   revisionHistoryLimit: 3
   selector:
