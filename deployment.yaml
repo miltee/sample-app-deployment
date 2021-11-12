@@ -13,9 +13,6 @@ spec:
       labels:
         app: sample-app
     spec:
-      syncPolicy:
-        syncOptions:
-          - ApplyOutOfSyncOnly=true
       containers:
       - command:
         - /app/sample-app
